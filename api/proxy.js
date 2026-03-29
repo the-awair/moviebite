@@ -1,7 +1,7 @@
 export const config = {
 runtime: "edge"
 };
-const TARGET = "https://orbit.foo.ng";
+const TARGET = "https://moviebite.cc";
 export default async function handler(req) {
 const url = new URL(req.url);
 const targetUrl = new URL(url.pathname + url.search, TARGET);
